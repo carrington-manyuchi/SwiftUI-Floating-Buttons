@@ -11,6 +11,7 @@
 		E6F0B1B92C7129820082F93F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F0B1B82C7129820082F93F /* ContentView.swift */; };
 		E6F0B1BB2C7129830082F93F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F0B1BA2C7129830082F93F /* Assets.xcassets */; };
 		E6F0B1BE2C7129830082F93F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F0B1BD2C7129830082F93F /* Preview Assets.xcassets */; };
+		E6F0B1C62C712B740082F93F /* FloatingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F0B1C52C712B740082F93F /* FloatingSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E6F0B1B82C7129820082F93F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E6F0B1BA2C7129830082F93F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6F0B1BD2C7129830082F93F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E6F0B1C52C712B740082F93F /* FloatingSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		E6F0B1B52C7129820082F93F /* FloatingButtons */ = {
 			isa = PBXGroup;
 			children = (
+				E6F0B1C42C712B5C0082F93F /* Helpers */,
 				E6F0B1B62C7129820082F93F /* FloatingButtonsApp.swift */,
 				E6F0B1B82C7129820082F93F /* ContentView.swift */,
 				E6F0B1BA2C7129830082F93F /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				E6F0B1BD2C7129830082F93F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E6F0B1C42C712B5C0082F93F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E6F0B1C52C712B740082F93F /* FloatingSheet.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6F0B1C62C712B740082F93F /* FloatingSheet.swift in Sources */,
 				E6F0B1B92C7129820082F93F /* ContentView.swift in Sources */,
 				E6F0B1B72C7129820082F93F /* FloatingButtonsApp.swift in Sources */,
 			);
